@@ -31,6 +31,17 @@ nav{
     margin-left: 10px;
     margin-right: 10px;
     font-size: small;
+    border: none 4px white;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    padding: 3px;
+}
+
+.navbar li:hover {
+    border: solid 4px white ;
+    font-size: large;
+    border-radius: 10px;
+
 }
 
 nav ul li a {
@@ -40,7 +51,7 @@ nav ul li a {
 nav img {
 
     width: 50%;
-   
+
 }
 
 article {
@@ -53,14 +64,22 @@ article {
     text-align: center;
 }
 article img {
-    width: 75%;
-    transform: scale(2,1);
-
+    width: 50%;
+    animation-name: imagenes;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+  
 }
+
+
 
 .article2 {
     background-color: orange;
+    
 }
+
+
 
 footer {
     background-color: black;
@@ -409,3 +428,25 @@ footer img {
 }
 
 
+
+/* Movimientos */
+
+@keyframes imagenes {
+
+    0% {
+        width: 50%;
+    }
+
+    25% {
+        width: 52%;
+    }
+
+    75% {
+        width: 55%;
+    }
+
+    100% {
+        width: 50%;
+    }
+
+}
