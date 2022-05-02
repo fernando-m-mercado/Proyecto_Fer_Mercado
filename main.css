@@ -9,6 +9,11 @@ body {
     "footer";
 }
 
+.navbar-brand {
+    width: 50%;
+
+}
+
 main {
     grid-area: main;
 }
