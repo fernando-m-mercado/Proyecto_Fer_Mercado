@@ -59,6 +59,8 @@ nav img {
 
 }
 
+
+
 article {
     display: flex;
     flex-direction: column;
@@ -77,6 +79,29 @@ article img {
   
 }
 
+.imageheader {
+
+    width: 80%;
+    margin: 20px;
+}
+
+.imagearticle2 {
+
+    width: 80%;
+    margin: 20px;
+
+}
+
+.naranja {
+
+    background-color: orange;
+}
+
+.galeria {
+    padding: 7%;
+    background-color: orange;
+
+}
 
 .container {
 
@@ -99,6 +124,13 @@ article img {
     text-align: center;
     padding: 50px;
 
+}
+
+button {
+
+    padding: 20px;
+    justify-content: center;
+    justify-items: center;
 }
 
 .article2 {
