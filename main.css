@@ -79,6 +79,12 @@ article img {
   
 }
 
+.carousel-item {
+    height: 600px;
+  }
+  
+ 
+
 .imageheader {
 
     width: 80%;
